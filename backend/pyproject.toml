@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cellanalyr"
+version = "0.1.0"
+description = ""
+authors = ["Hieu Tran <hieutran.fu@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.65.1"
+uvicorn = "^0.13.4"
+python-multipart = "^0.0.5"
+pandas = "^1.2.4"
+xlrd = "^2.0.1"
+openpyxl = "^3.0.7"
+aiofiles = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
